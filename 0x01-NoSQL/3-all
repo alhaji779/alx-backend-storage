@@ -1,0 +1,2 @@
+// script to list all data in a collection
+db.school.find()
