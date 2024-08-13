@@ -1,0 +1,2 @@
+// scripts to fetch all with condition
+db.school.find({name: "Holberton school"})
