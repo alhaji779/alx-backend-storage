@@ -4,5 +4,5 @@
 
 def schools_by_topic(mongo_collection, topic):
     """ fetch data from collection """
-    n_list = [doc for doc in mongo_collection.find({"topic": topic})]
-    return n_list
+    n_list = [doc for doc in mongo_collection.find({"topics": topic})]
+    return ni_list
